@@ -1,0 +1,70 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{ 
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-weight:inherit;
+font-style:inherit;
+font-size:100%;
+font-family:inherit;
+vertical-align:baseline;
+}
+
+:focus { 
+outline:0;
+}
+p, li {
+margin-bottom:13px;
+margin-left:13px;
+}
+
+body { 
+line-height:1; 
+color:black; 
+background: #eee; 
+font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+#main {
+width:512px;
+margin: 0 auto;
+background: #ffffff;
+height:752px;
+margin-top:4px;
+border: 1px solid #d5d5d5;
+}
+
+#about, #why, #contact, #more{
+margin: 0 50px;
+padding-top: 29px;
+}
+#about, #why, #contact{
+border-bottom: 1px solid #ccc;
+}
+
+#about h1 {
+text-align: center;
+font-size: 18px;
+font-weight:bold;
+}
+
+#about p.img {
+margin:15px;
+text-align:center;
+}
+
+#why ul{
+margin-top: 36px;
+}
+
+#why li {
+list-style-position: inside;
+margin-left: 20px;
+}
+#contact p.pfb{
+padding-top:38px;
+}
