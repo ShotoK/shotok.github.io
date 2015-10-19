@@ -31,10 +31,9 @@ font-family: Geneva, Arial, Helvetica, sans-serif;
 
 #main {
 width:512px;
-margin: 0 auto;
+margin: 4px auto 0 auto;
 background: #ffffff;
 height:752px;
-margin-top:4px;
 border: 1px solid #d5d5d5;
 }
 
