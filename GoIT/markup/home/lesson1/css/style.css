@@ -14,8 +14,7 @@ vertical-align:baseline;
 outline:0;
 }
 p, li {
-margin-bottom:13px;
-margin-left:13px;
+margin: 0 0 13px 13px;
 }
 
 body { 
