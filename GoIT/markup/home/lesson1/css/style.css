@@ -32,6 +32,7 @@ background: #ffffff;
 -moz-box-shadow: 0 0 3px #cecece;
 -webkit-box-shadow: 0 0 3px #cecece;
 box-shadow: 0 0 3px #cecece;
+filter: progid:DXImageTransform.Microsoft.dropshadow(offX=3, offY=3, color=#cecece);
 }
 
 .blok{
