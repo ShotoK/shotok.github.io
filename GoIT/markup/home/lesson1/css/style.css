@@ -29,7 +29,9 @@ width:512px;
 height:752px;
 margin: 4px auto 0;
 background: #ffffff;
-border: 1px solid #d5d5d5;
+-moz-box-shadow: 0 0 3px #d5d5d5;
+-webkit-box-shadow: 0 0 3px #d5d5d5;
+box-shadow: 0 0 3px #d5d5d5;
 }
 
 .blok{
