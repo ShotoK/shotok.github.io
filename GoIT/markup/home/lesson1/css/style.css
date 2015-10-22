@@ -43,7 +43,7 @@ li
 	background: #fff;
 	box-shadow: 0 0 3px #989898;
 	filter: progid:DXImageTransform.Microsoft.dropshadow(offX=3, offY=3, color=#989898);
-	height: 752px;
+	min-height: 752px;
 	margin: 4px auto 0;
 	moz-box-shadow: 0 0 3px #989898;
 	webkit-box-shadow: 0 0 3px #989898;
