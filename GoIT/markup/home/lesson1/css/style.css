@@ -18,7 +18,25 @@ body
 {
 	background: #eee;
 	color: black;
-	font: normal 14px/1 Geneva, Arial, Helvetica,sans-serif;
+	font: normal 14px/1 serif;
+}
+h1
+{
+	font: bold 18px/1 serif;
+	text-align: center;
+}
+p, li
+{
+	margin: 0 0 13px 13px;
+}
+ul
+{
+	margin-top: 36px;
+}
+li
+{
+	list-style-position: inside;
+	margin-left: 20px;
 }
 #main
 {
@@ -37,34 +55,16 @@ body
 	margin: 0 50px;
 	padding-top: 29px;
 }
-.nobrd
+.noborder
 {
 	border-bottom: none;
-}
-h1
-{
-	font: bold 18px sans-serif;
-	text-align: center;
-}
-p, li
-{
-	margin: 0 0 13px 13px;
-}
-ul
-{
-	margin-top: 36px;
-}
-li
-{
-	list-style-position: inside;
-	margin-left: 20px;
 }
 .img
 {
 	margin: 15px;
 	text-align: center;
 }
-.pfb
+.fb
 {
 	padding-top: 38px;
 }
