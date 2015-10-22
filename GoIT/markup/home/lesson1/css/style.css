@@ -1,69 +1,71 @@
-html, body, div, h1, p, a, ol, ul, li{ 
-	margin:0;
-	padding:0;
-	border:0;
-	outline:0;
-	font-weight:inherit;
-	font-style:inherit;
-	font-size:100%;
-	font-family:inherit;
-	vertical-align:baseline;
+html, body, div, h1, p, a, ol, ul, li
+{
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
 }
-
-:focus { 
-	outline:0;
+:focus
+{
+	outline: 0;
 }
-
-body { 
-	line-height:1; 
-	color:black; 
-	background: #eee; 
+body
+{
+	background: #eee;
+	color: black;
 	font: normal 14px Geneva, Arial, Helvetica,sans-serif;
+	line-height: 1;
 }
-
-	#main {
-		width:512px;
-		height:752px;
-		margin: 4px auto 0;
-		background: #fff;
-		-moz-box-shadow: 0 0 3px #989898;
-		-webkit-box-shadow: 0 0 3px #989898;
-		box-shadow: 0 0 3px #989898;
-		filter: progid:DXImageTransform.Microsoft.dropshadow(offX=3, offY=3, color=#989898);
-	}
-
-		.blok{
-			margin: 0 50px;
-			padding-top: 29px;
-			border-bottom: 1px solid #ccc;
-		}
-		.nobrd{
-			border-bottom: none;
-		}
-
-		h1 {
-			text-align: center;
-			font: bold 18px sans-serif;
-		}
-
-		p, li {
-			margin: 0 0 13px 13px;
-		}
-
-		ul{
-			margin-top: 36px;
-		}
-
-			li {
-				list-style-position: inside;
-				margin-left: 20px;
-			}
-
-		.img {
-			margin:15px;
-			text-align:center;
-		}
-
-		.pfb{
-			padding-top:38px;
-		}
+#main
+{
+	background: #fff;
+	box-shadow: 0 0 3px #989898;
+	filter: progid:DXImageTransform.Microsoft.dropshadow(offX=3, offY=3, color=#989898);
+	height: 752px;
+	margin: 4px auto 0;
+	moz-box-shadow: 0 0 3px #989898;
+	webkit-box-shadow: 0 0 3px #989898;
+	width: 512px;
+}
+.blok
+{
+	border-bottom: 1px solid #ccc;
+	margin: 0 50px;
+	padding-top: 29px;
+}
+.nobrd
+{
+	border-bottom: none;
+}
+h1
+{
+	font: bold 18px sans-serif;
+	text-align: center;
+}
+p, li
+{
+	margin: 0 0 13px 13px;
+}
+ul
+{
+	margin-top: 36px;
+}
+li
+{
+	list-style-position: inside;
+	margin-left: 20px;
+}
+.img
+{
+	margin: 15px;
+	text-align: center;
+}
+.pfb
+{
+	padding-top: 38px;
+}
