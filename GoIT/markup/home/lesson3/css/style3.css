@@ -20,14 +20,10 @@ body
 	color: #2c2c2c;
 	font: normal 14px/1 Open Sans, sans-serif;
 }
-h1
-{
-	font: bold 18px/1 Open Sans;
-	text-align: center;
-}
+
 p
 {
-	margin: 0 0 13px 13px;
+	margin: 0 0 0 25px;
 }
 
 #wrap
@@ -65,7 +61,7 @@ header nav ul li {
 	list-style: none;
 }
 
-header nav ul li:hover {
+header nav ul li:hover, header nav ul li.active {
 	border-left: 1px #838383 solid;
 	border-right: 1px #838383 solid;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4a4a4a+0,2e2e2e+100 */
@@ -101,22 +97,27 @@ aside ul li {
 	list-style: none;
 	border-bottom: 1px solid #c8c8c8;
 }
-aside ul li:hover  {
+aside ul li:hover, aside ul li.active  {
 	background: #f9f9f9;
 }
 aside ul li  a{
-	display:block;
-	width: 240px;
+	display: block;
+	width: 238px;
 	height: 40px;
-	line-height:40px;
+	line-height: 40px;
 	color: #656363;
-	text-decoration:none;
-	padding-left:23px;
+	text-decoration: none;
+	padding-left: 23px;
 }
-aside ul li:hover a{
+aside ul li:hover a, aside ul li.active a{
 	color: #2c2c2c;
-	padding-left:35px;
+	padding-left: 35px;
 }
+
+article{
+	margin-left: 290px;
+}
+
 footer {
 	clear: both;
 }
@@ -132,9 +133,13 @@ footer nav ul li {
 }
 footer  nav ul li a{
 	color: #2c2c2c;
-	text-decoration:none;
-	line-height:40px;
+	text-decoration: none;
+	line-height: 40px;
 }
+footer  nav ul li:hover a, footer  nav ul li.active a{
+	text-decoration: underline;
+}
+
 .main
 {
 	padding: 0 48px;
