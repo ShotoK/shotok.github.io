@@ -1,5 +1,4 @@
-html, body, header, nav, aside, section, footer , div, h1, p, a, ol, ul, li
-{
+html, body, header, nav, aside, section, footer , div, h1, p, a, ol, ul, li{
 	border: 0;
 	font-family: inherit;
 	font-size: 100%;
@@ -10,38 +9,31 @@ html, body, header, nav, aside, section, footer , div, h1, p, a, ol, ul, li
 	padding: 0;
 	vertical-align: baseline;
 }
-:focus
-{
+:focus{
 	outline: 0;
 }
-body
-{
+/*  html, body {
+    height: 100%;
+} */
+body{
 	background: #f9f9f9;
 	color: #2c2c2c;
 	font: normal 14px/1 Open Sans, sans-serif;
 }
-p
-{
-	margin: 0 0 0 25px;
-}
-#wrap
-{
+#wrap{
 	background: #fff;
 	box-shadow: 0 0 3px #989898;
 	filter: progid:DXImageTransform.Microsoft.dropshadow(offX=3, offY=3, color=#989898);
 	margin: 0px auto;
-	min-height: 100%;
 	moz-box-shadow: 0 0 3px #989898;
 	padding-bottom: 60px;
 	webkit-box-shadow: 0 0 3px #989898;
 	width: 1060px;
 }
-header
-{
+header{
 	margin-bottom: 40px;
 }
-header nav
-{
+header nav{
 	background: linear-gradient(to bottom, rgba(94,94,94,1) 0%,rgba(68,67,67,1) 100%);
 	background: -moz-linear-gradient(top, rgba(94,94,94,1) 0%, rgba(68,67,67,1) 100%);
 	background: -ms-linear-gradient(top, rgba(94,94,94,1) 0%,rgba(68,67,67,1) 100%);
@@ -52,21 +44,16 @@ header nav
 	background: -webkit-linear-gradient(top, rgba(94,94,94,1) 0%,rgba(68,67,67,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#444343',GradientType=0 );
 }
-header nav ul
-{
+header  ul{
 	height: 40px;
 	margin-left: 4px;
 }
-header nav ul li
-{
-	display: block;
+header  li{
 	float: left;
 	list-style: none;
 	margin-right: 37px;
-	padding: 0 23px;
 }
-header nav ul li:hover, header nav ul li.active
-{
+header li:hover, header li.active{
 	background: linear-gradient(to bottom, rgba(74,74,74,1) 0%,rgba(46,46,46,1) 100%);
 	background: -moz-linear-gradient(top, rgba(74,74,74,1) 0%, rgba(46,46,46,1) 100%);
 	background: -ms-linear-gradient(top, rgba(74,74,74,1) 0%,rgba(46,46,46,1) 100%);
@@ -79,103 +66,89 @@ header nav ul li:hover, header nav ul li.active
 	border-right: 1px #838383 solid;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#2e2e2e',GradientType=0 );
 }
-header nav ul li a
-{
+header li a{
 	color: #fff;
 	font: normal 15px/40px Open Sans, sans-serif;
 	text-decoration: none;
 	text-shadow: 0px 1px 1px rgba(150, 150, 150, 1);
+	display: block;
+	padding: 0 23px;
 }
-aside
-{
+header li:hover a, header li.active a {
+	padding: 0 22px;
+}
+aside{
 	float: left;
-}
-aside ul
-{
-	border-left: 1px solid #c8c8c8;
-	border-right: 1px solid #c8c8c8;
-	border-top: 1px solid #c8c8c8;
 	width: 238px;
 }
-aside ul li
-{
+aside ul{
+	border-left: 1px solid #c8c8c8;
+	border-right: 1px solid #c8c8c8;
+	border-top: 1px solid #c8c8c8;	
+}
+aside li{
 	border-bottom: 1px solid #c8c8c8;
 	list-style: none;
 }
-aside ul li:hover, aside ul li.active
-{
+aside li:hover, aside li.active{
 	background: #f9f9f9;
 }
-aside ul li a
-{
+aside li a{
 	color: #656363;
 	display: block;
-	height: 39px;
+	/* height: 39px; */
 	line-height: 39px;
 	padding-left: 23px;
 	text-decoration: none;
-	width: 238px;
+	/* width: 238px; */
 }
-aside ul li:hover a, aside ul li.active a
-{
+aside li:hover a, aside li.active a{
 	color: #2c2c2c;
 	padding-left: 35px;
 }
-article
-{
+article{
 	margin-left: 290px;
 }
-article section
-{
-	margin-top: 40px;
+article .descr{
+	    margin: 40px 0 0 25px;
 }
-article section p
-{
+article .descr p{
 	line-height: 23px;
+	margin-bottom:10px;
 }
-footer
-{
+footer{
 	background: #e1e1e1;
-	clear: both;
 	height: 40px;
 	margin-top: 60px;
 }
-footer nav
-{
+footer nav{
 	float: left;
 }
-footer nav ul
-{
-	height: 40px;
-}
-footer nav ul li
-{
-	display: block;
+
+footer nav li{
 	float: left;
 	list-style: none;
 	padding: 0 22px 0 55px;
 }
-footer nav ul li a
-{
+footer nav li a{
 	color: #2c2c2c;
 	font: normal 15px/40px Open Sans, sans-serif;
 	text-decoration: none;
-}
-footer nav ul li:hover a, footer nav ul li.active a
-{
+	}
+footer nav li:hover a, footer nav li.active a{
 	text-decoration: underline;
 }
-.main
-{
+.main{
 	padding: 0 47px;
 }
-.logo
-{
+.logo{
 	padding: 50px 0 38px 0;
 }
-.copy
-{
-	float: right;
-	line-height: 40px;
-	padding-right: 25px;
+.img_border{
+	border: 1px solid #ccc;
+}
+.copy{
+	text-align: right;
+    line-height: 40px;
+    padding-right: 25px;
 }
