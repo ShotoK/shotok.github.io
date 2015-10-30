@@ -28,7 +28,8 @@ body{
 	moz-box-shadow: 0 0 3px #989898;
 	padding-bottom: 60px;
 	webkit-box-shadow: 0 0 3px #989898;
-	width: 1060px;
+	width: 966px;
+    padding: 0 47px;
 }
 header{
 	margin-bottom: 40px;
@@ -137,9 +138,6 @@ footer a{
 	}
 footer a:hover, footer a.active{
 	text-decoration: underline;
-}
-.main{
-	padding: 0 47px;
 }
 .logo{
 	padding: 50px 0 38px 0;
