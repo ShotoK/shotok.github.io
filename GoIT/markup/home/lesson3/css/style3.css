@@ -125,17 +125,17 @@ footer nav{
 	float: left;
 }
 
-footer nav li{
+footer li{
 	float: left;
 	list-style: none;
 	padding: 0 22px 0 55px;
 }
-footer nav li a{
+footer a{
 	color: #2c2c2c;
 	font: normal 15px/40px Open Sans, sans-serif;
 	text-decoration: none;
 	}
-footer nav li:hover a, footer nav li.active a{
+footer a:hover, footer a.active{
 	text-decoration: underline;
 }
 .main{
