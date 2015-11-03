@@ -49,12 +49,12 @@ header nav{
 }
 header  ul{
 	height: 40px;
-	margin-left: 4px;
+	/* margin-left: 4px; */
 }
 header  li{
 	float: left;
 	list-style: none;
-	margin-right: 37px;
+	/* margin-right: 37px; */
 }
 header li:hover, header li.active{
 	background: linear-gradient(to bottom, rgba(74,74,74,1) 0%,rgba(46,46,46,1) 100%);
