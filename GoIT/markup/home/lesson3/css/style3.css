@@ -116,6 +116,12 @@ aside li:hover a, aside li.active a{
 }
 .img_border{
 	border: 1px solid #ccc;
+	width: 676px;
+	height: 398px;
+	text-align: center;
+}
+.img_border img{
+	margin-top: 30px;
 }
 
 /* Content */
@@ -123,7 +129,7 @@ article{
 	margin-left: 290px;
 }
 article .descr{
-	    margin: 40px 0 0 25px;
+	margin: 40px 0 0 25px;
 }
 article .descr p{
 	line-height: 23px;
