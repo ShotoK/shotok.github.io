@@ -25,9 +25,8 @@ body{
 	box-shadow: 0 0 3px #989898;
 	filter: progid:DXImageTransform.Microsoft.dropshadow(offX=3, offY=3, color=#989898);
 	margin: 0px auto;
-	moz-box-shadow: 0 0 3px #989898;
-	padding-bottom: 60px;
-	webkit-box-shadow: 0 0 3px #989898;
+	-moz-box-shadow: 0 0 3px #989898;
+	-webkit-box-shadow: 0 0 3px #989898;
 	width: 966px;
     padding: 0 47px 60px 47px;
 }
@@ -150,7 +149,9 @@ footer{
 footer nav{
 	float: left;
 }
-
+footer ul{
+	height: 40px;
+}
 footer li{
 	float: left;
 	list-style: none;
