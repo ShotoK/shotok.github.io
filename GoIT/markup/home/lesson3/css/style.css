@@ -12,6 +12,14 @@ html, body, header, nav, aside, section, footer , div, h1, p, a, ol, ul, li{
 :focus{
 	outline: 0;
 }
+header, 
+nav, 
+section, 
+article, 
+aside, 
+footer {
+  display: block
+}
 /*  html, body {
     height: 100%;
 } */
