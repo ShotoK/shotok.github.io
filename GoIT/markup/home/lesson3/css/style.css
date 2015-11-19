@@ -18,7 +18,7 @@ html, body, header, nav, aside, section, footer , div, h1, p, a, ol, ul, li{
 body{
 	background: #f9f9f9;
 	color: #2c2c2c;
-	font: normal 14px/23px Open Sans, sans-serif;
+	font: normal 14px/normal Open Sans, sans-serif;
 }
 #wrap{
 	background: #fff;
