@@ -18,7 +18,7 @@ section,
 article, 
 aside, 
 footer {
-  display: block
+  display: block;
 }
 /*  html, body {
     height: 100%;
