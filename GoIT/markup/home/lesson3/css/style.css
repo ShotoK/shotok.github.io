@@ -20,9 +20,9 @@ aside,
 footer {
   display: block;
 }
-/*  html, body {
+html, body {
     height: 100%;
-} */
+}
 body{
 	background: #f9f9f9;
 	color: #2c2c2c;
