@@ -32,7 +32,7 @@ body{
 	background: #fff;
 	margin: 0 auto;
 	width: 966px;
-    padding: 0 47px 60px 47px;
+	padding: 0 47px 0 47px;
 	
 	box-shadow: 0px 0px 3px 1px #989898;
 	-webkit-box-shadow: 0px 0px 3px 1px #989898;
@@ -43,7 +43,7 @@ body{
 	filter: progid:DXImageTransform.Microsoft.dropshadow(offX=3, offY=3, color=#989898);
 	-moz-box-shadow: 0 0 3px #989898;
 	-webkit-box-shadow: 0 0 3px #989898;*/
-	
+	min-height: 100%;
 }
 
 /* Header */
