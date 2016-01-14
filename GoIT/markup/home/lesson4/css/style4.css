@@ -39,91 +39,121 @@ p
 	width: 1000px;
 }
 header {
-height: 175px;
+	height: 175px;
 }
-nav ul{
-	float:left;
-	width:100%;
-	list-style:none;
-	font-weight:bold;
-	margin-bottom:10px;
+header  .logo{
+	float: left;
+	height: 175px;
 }
-nav ul li{
-	float:left;
-	margin-right:10px;
-	position:relative;
-	display:block;
+header  .contacts{
+	color: #128aa7;
+    float: right;
+	margin: 10px 33px 0 0;
 }
-nav ul li a{
-	display:block;
-	padding:5px;
-	color:#fff;
-	background:#333;
-	text-decoration:none;
-	
-	text-shadow:1px 1px 1px rgba(0,0,0,0.75); /* Тень текста, чтобы приподнять его на немного */
-	-moz-border-radius:2px;
-	-webkit-border-radius:2px;
-	border-radius:2px;
+header  .contacts p{
+    line-height: 18px;
 }
-nav ul li a:hover{
-	color:#fff;
-	background:#6b0c36;
-	background:rgba(107,12,54,0.75);
-	text-decoration:underline;
+header .countries{
+    clear: right;
+    float: right;
+	margin: 30px 33px 0 0;
+}
+header .countries div{
+	float: left;
+	width: 60px;
+	text-align: center;
+}
+header .countries div a{
+	color: #128aa7;
+	font-size: 10px;
+	text-decoration: underline;
+}
+header .countries div a p{
+	margin:0;
 }
 
-/*--- ВЫПАДАЮЩИЕ ПУНКТЫ ---*/
-nav ul ul{
-	list-style:none;
-	position:absolute;
-	left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
-	opacity:0; /* Устанавливаем начальное состояние прозрачности */
-	-webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+/*меню*/
+#menu {
+  background: #353535;
+  width: 100%;
+  padding:0;
+  text-align: center;
+  float:left;
+  border-bottom: 1px solid black;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    0px 2px 3px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         0px 2px 3px 0px rgba(50, 50, 50, 0.75);
 }
-nav ul ul li{
-	padding-top:1px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
-	float:none;
-	background:url(dot.gif);
+
+#menu a {
+  color: #fff;
+  text-decoration: none;
 }
-nav ul ul a{
-	white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
-	display:block;
+
+#menu a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
-nav ul li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
-	left:0; /* Приносим его обратно на экран, когда нужно */
-	opacity:1; /* Делаем непрозрачным */
+
+#menu ul {
+  padding:0;
+  margin:0;
 }
-nav ul li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
-	background:#6b0c36;
-	background:rgba(107,12,54,0.75); /* Выглядит полупрозрачным */
-	text-decoration:underline;
+
+#menu li {
+  list-style: none;
+  margin: 0 0 0 60px;
+  float:left;
+  line-height: 30px;
 }
-nav ul li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
-	text-decoration:none;
-	-webkit-transition:-webkit-transform 0.075s linear;
+
+#menu li ul { 
+  position:absolute;
+  display: none;
+} 
+
+#menu li ul li {
+  float: none;
+  display: inline;
+  margin: 0;
+  padding:0 7px;
+  line-height:25px;
 }
-nav ul li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
-	background:#333;
-	background:rgba(51,51,51,0.75); /* Будет полупрозрачным */
-	text-decoration:underline;
-	-moz-transform:scale(1.05);
-	-webkit-transform:scale(1.05);
+
+#menu li:hover ul {
+  display:block;
 }
+
+#menu li ul li { 
+  display: block; 
+  background:#353535;
+}
+
 article{
-width: 580px;
-float:left;
+	width: 580px;
+	float:left;
+    margin-top: 10px;
+}
+h1{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #424c43;
+}
+.main{
+min-height:100%;
 }
 .big_img{
-height: 238px;
-background: url(../images/bg_img.jpg) repeat-x #128aa7;
+	height: 238px;
+	background: url(../images/bg_img.jpg) repeat-x #128aa7;
 }
 .big_img img{
 	padding-top: 1px;
 }
 .left, .right{
-width:208px;
-border-left: 1px solid #ccc;
-border-right: 1px solid #ccc;
-float:left;
+	width:208px;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	float:left;
+    margin-top: 10px;
 }
